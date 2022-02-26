@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="892" height="257" viewBox="0 0 892 257">
+  <g id="Group_3" data-name="Group 3" transform="translate(-435 1841)">
+    <g id="Group_1" data-name="Group 1" transform="translate(12 -833)">
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(436 -994)" fill="#202326" stroke="#202326" stroke-width="10">
+        <rect width="879" height="243" rx="31" stroke="none"/>
+        <rect x="5" y="5" width="869" height="233" rx="26" fill="none"/>
+      </g>
+      <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(423 -1008)" fill="#6bbaeb" stroke="#202326" stroke-width="10">
+        <rect width="879" height="243" rx="31" stroke="none"/>
+        <rect x="5" y="5" width="869" height="233" rx="26" fill="none"/>
+      </g>
+    </g>
+    <text id="View_on_Opensea" data-name="View on Opensea" transform="translate(539 -1681)" fill="#222120" font-size="85" font-family="Mat-Saleh, Mat Saleh"><tspan x="0" y="0">View on Opensea</tspan></text>
+  </g>
+</svg>

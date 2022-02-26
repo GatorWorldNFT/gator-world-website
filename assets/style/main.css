@@ -1,0 +1,240 @@
+@font-face {
+  font-family: comic-sans;
+  src: url(../font/comic-sans-ms/comici.ttf);
+}
+
+@font-face {
+  font-family: mat-saleh;
+  src: url(../font/mat-saleh/mat-saleh.ttf);
+}
+
+.comic-sans {
+  font-family: comic-sans;
+}
+
+.mat-saleh {
+  font-family: mat-saleh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: mat-saleh;
+}
+.navbar-expand-lg .navbar-collapse {
+  height: 100px!important;
+}
+nav.navbar {
+  background-color: #516d45;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  opacity: 0.9;
+  transition: all 0.2s ease-out;
+  backdrop-filter: blur(20px);
+}
+
+nav.navbar-scroll {
+  opacity: 1;
+}
+
+.navbar-toggler {
+  background: linear-gradient(rgb(255, 255, 255) 0%, rgb(244, 244, 244) 99.29%);
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 10px, rgb(0 0 0 / 20%) 0px 0px 3px inset;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+}
+
+nav.navbar a {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .navbar-scroll #top-social-menu {
+    display: none;
+    transition: all 0.2s ease-out;
+  }
+}
+.navbar-brand.word_logo{
+  display: none;
+}
+
+.section-1 img {
+  display: block;
+}
+
+.opensea-button {
+  display: inline-block;
+  width: 493px;
+  height: 159px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.opensea-button {
+  background-image: url(../image/section_1/opensea_button.png);
+}
+
+.opensea-button:hover, .opensea-button:focus {
+  background-image: url(../image/section_1/opensea_button_hover.png);
+}
+
+/*  */
+.anime_intro {
+  object-fit: cover;
+  width: 100vw;
+  /* height: 55vh; */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  /* height: 55vh; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 115px; */
+}
+
+.anime_intro, .viewport-header {
+  height: 55vh;
+  width: 100%;
+}
+
+
+/*  */
+.story-container {
+  background-image: url(../image/section_2/bg_brow.png);
+  background-size: 100%;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 0;
+}
+
+.story-container .story-banner {
+  position: relative;
+  z-index: 5;
+}
+
+.story-container .story-vdo {
+  width: 100%;
+  border-radius: 7.3%;
+}
+
+.story-container .story-content {
+  margin-top: 20px;
+}
+
+.story-container img+.container {
+  padding: 0 10%;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*padding: 20px;*/
+  border-radius: 5px;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.videoContainer video {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.videoContainer .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  background: green;
+  opacity: 0.5;
+}
+
+.about-container {
+  padding-top: 50px;
+}
+
+.gator_anime {
+  border-radius: 6%;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.gray-bg {
+  background-color: #525252;
+}
+
+.green-bg {
+  background-color: #526e46;
+}
+
+.roadmap-container {
+  padding: 50px 0 0;
+}
+
+.roadmap-container .roadmap-anime {
+  margin-top: 30px;
+  border-radius: 3.7%;
+}
+
+.shadow-style {
+  box-shadow: 20px 20px 17px #0000004f;
+  -moz-box-shadow: 20px 20px 17px #0000004f;
+  -webkit-box-shadow: 20px 20px 17px #0000004f;
+}
+
+.traits-container {
+  background-color: #523d36;
+}
+
+.faq-container #faq-section, .faq-container #team-section {
+  padding-top: 50px;
+}
+
+.footer-container {
+  background-color: #525252;
+}
+
+.footer-container .text-end {
+  margin-top: 40px;
+}
+
+.team-images [class*="col-"] {
+  padding: 20px;
+  box-shadow: none;
+}
+
+.team-images img {
+  border-radius: 15px;
+}
+
+.variation-image {
+  border: 10px solid #121212;
+  border-radius: 30px;
+}
+.content-block{
+  margin-top: 20px;
+}
+.content-block img{
+  margin-bottom: 50px;
+}
+
+/*  */
